@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: darkgrey;
+    padding: 10px;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+}
+a:hover{
+    color: blueviolet;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 2s,transform 2s,padding 2s,color 2s;
+
+}
+h1{
+    text-align: center;
+   
+}
+h2{
+    text-align: center;
+    background-color: crimson;
+    border-radius: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h4{
+    text-align: center;
+    word-spacing: 20px;
+    color: darkorange;
+   
+}
+#home{
+    height: 100vh;
+    background-color: beige;
+    background-image: url(image1/iphone.jpg);
+    background-size: cover
+}
+#about{
+    height: 100vh;
+    background-color: burlywood;
+    background-size: cover
+}
+#service{
+    height: 100vh;
+    background-color: rgb(160, 186, 143);
+    background-image: url(image1/mobile\ parts.jpg);
+    background-size: cover
+}
+#product{
+    height: 100vh;
+    background-color: rgb(157, 208, 212);
+    background-size: cover
+}
+#contact{
+    height: 100vh;
+    background-color: rgb(231, 175, 177);
+    background-size: cover
+}
+table,th,td{
+        border: 5px solid orange;
+        border-collapse: collapse;
+}
+table{
+        width: 250px;
+        height: 150px;
+    }
+td{
+    text-align: center;
+}
+p{
+    padding-left: 30;
+    margin-right: 40px;
+}
